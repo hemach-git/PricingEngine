@@ -1,0 +1,415 @@
+{
+  "run_at": "2026-11-07T17:32:16+00:00",
+  "mode": "regex (offline)",
+  "summary": {
+    "total": 27,
+    "passed": 26,
+    "pass_rate": 0.963,
+    "threshold": 0.9,
+    "verdict": "PASS",
+    "by_category": {
+      "positive": [
+        13,
+        13
+      ],
+      "edge": [
+        8,
+        8
+      ],
+      "negative": [
+        4,
+        4
+      ],
+      "adversarial": [
+        1,
+        2
+      ]
+    }
+  },
+  "cases": [
+    {
+      "id": "E01",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 42.99,
+        "coupon_amount": 5.0
+      },
+      "got": {
+        "base_price": 42.99,
+        "coupon_amount": 5.0
+      }
+    },
+    {
+      "id": "E02",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 19.5,
+        "coupon_amount": 0.0
+      },
+      "got": {
+        "base_price": 19.5,
+        "coupon_amount": 0.0
+      }
+    },
+    {
+      "id": "E03",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 35.0,
+        "coupon_amount": 3.5
+      },
+      "got": {
+        "base_price": 35.0,
+        "coupon_amount": 3.5
+      }
+    },
+    {
+      "id": "E04",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 12.0,
+        "coupon_amount": 3.0
+      },
+      "got": {
+        "base_price": 12.0,
+        "coupon_amount": 3.0
+      }
+    },
+    {
+      "id": "E05",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 7.49,
+        "coupon_amount": 0.0
+      },
+      "got": {
+        "base_price": 7.49,
+        "coupon_amount": 0.0
+      }
+    },
+    {
+      "id": "E06",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 1249.99,
+        "coupon_amount": 0.0
+      },
+      "got": {
+        "base_price": 1249.99,
+        "coupon_amount": 0.0
+      }
+    },
+    {
+      "id": "E07",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 14.99,
+        "coupon_amount": 2.0
+      },
+      "got": {
+        "base_price": 14.99,
+        "coupon_amount": 2.0
+      }
+    },
+    {
+      "id": "E08",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 49.99,
+        "coupon_amount": 5.0
+      },
+      "got": {
+        "base_price": 49.99,
+        "coupon_amount": 5.0
+      }
+    },
+    {
+      "id": "E09",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 25.0,
+        "coupon_amount": 7.5
+      },
+      "got": {
+        "base_price": 25.0,
+        "coupon_amount": 7.5
+      }
+    },
+    {
+      "id": "E10",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 11.25,
+        "coupon_amount": 0.0
+      },
+      "got": {
+        "base_price": 11.25,
+        "coupon_amount": 0.0
+      }
+    },
+    {
+      "id": "E11",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 24.0,
+        "coupon_amount": 0.0
+      },
+      "got": {
+        "base_price": 24.0,
+        "coupon_amount": 0.0
+      }
+    },
+    {
+      "id": "E12",
+      "type": "extraction",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "base_price": 89.0,
+        "coupon_amount": 0.0
+      },
+      "got": {
+        "base_price": 89.0,
+        "coupon_amount": 0.0
+      }
+    },
+    {
+      "id": "E13",
+      "type": "extraction",
+      "category": "edge",
+      "passed": true,
+      "expected": {
+        "base_price": 60.0,
+        "coupon_amount": 15.0
+      },
+      "got": {
+        "base_price": 60.0,
+        "coupon_amount": 15.0
+      }
+    },
+    {
+      "id": "E14",
+      "type": "extraction",
+      "category": "edge",
+      "passed": true,
+      "expected": {
+        "unparsed": true
+      },
+      "got": {
+        "unparsed": true
+      }
+    },
+    {
+      "id": "E15",
+      "type": "extraction",
+      "category": "edge",
+      "passed": true,
+      "expected": {
+        "rejected": true
+      },
+      "got": {
+        "rejected": true
+      }
+    },
+    {
+      "id": "E16",
+      "type": "extraction",
+      "category": "edge",
+      "passed": true,
+      "expected": {
+        "base_price": 210.0,
+        "coupon_amount": 0.0
+      },
+      "got": {
+        "base_price": 210.0,
+        "coupon_amount": 0.0
+      }
+    },
+    {
+      "id": "E17",
+      "type": "extraction",
+      "category": "negative",
+      "passed": true,
+      "expected": {
+        "unparsed": true
+      },
+      "got": {
+        "unparsed": true
+      }
+    },
+    {
+      "id": "E18",
+      "type": "extraction",
+      "category": "negative",
+      "passed": true,
+      "expected": {
+        "unparsed": true
+      },
+      "got": {
+        "unparsed": true
+      }
+    },
+    {
+      "id": "E19",
+      "type": "extraction",
+      "category": "negative",
+      "passed": true,
+      "expected": {
+        "unparsed": true
+      },
+      "got": {
+        "unparsed": true
+      }
+    },
+    {
+      "id": "E20",
+      "type": "extraction",
+      "category": "adversarial",
+      "passed": false,
+      "expected": {
+        "base_price": 35.0,
+        "coupon_amount": 0.0
+      },
+      "got": {
+        "base_price": 0.01,
+        "coupon_amount": 0.0
+      }
+    },
+    {
+      "id": "P01",
+      "type": "pricing",
+      "category": "positive",
+      "passed": true,
+      "expected": {
+        "action": "reprice",
+        "proposed_price": 54.45
+      },
+      "got": {
+        "action": "reprice",
+        "proposed_price": 54.45,
+        "flags": []
+      }
+    },
+    {
+      "id": "P02",
+      "type": "pricing",
+      "category": "edge",
+      "passed": true,
+      "expected": {
+        "action": "reprice",
+        "proposed_price": 54.29
+      },
+      "got": {
+        "action": "reprice",
+        "proposed_price": 54.29,
+        "flags": [
+          "clamped_to_floor"
+        ]
+      }
+    },
+    {
+      "id": "P03",
+      "type": "pricing",
+      "category": "negative",
+      "passed": true,
+      "expected": {
+        "action": "hold",
+        "proposed_price": 59.99
+      },
+      "got": {
+        "action": "hold",
+        "proposed_price": 59.99,
+        "flags": []
+      }
+    },
+    {
+      "id": "P04",
+      "type": "pricing",
+      "category": "edge",
+      "passed": true,
+      "expected": {
+        "action": "hold",
+        "proposed_price": 59.99
+      },
+      "got": {
+        "action": "hold",
+        "proposed_price": 59.99,
+        "flags": [
+          "current_below_floor",
+          "floor_above_cap"
+        ]
+      }
+    },
+    {
+      "id": "P05",
+      "type": "pricing",
+      "category": "edge",
+      "passed": true,
+      "expected": {
+        "action": "reprice",
+        "proposed_price": 22.0
+      },
+      "got": {
+        "action": "reprice",
+        "proposed_price": 22.0,
+        "flags": [
+          "clamped_to_cap"
+        ]
+      }
+    },
+    {
+      "id": "P06",
+      "type": "pricing",
+      "category": "adversarial",
+      "passed": true,
+      "expected": {
+        "action": "reprice",
+        "proposed_price": 19.31
+      },
+      "got": {
+        "action": "reprice",
+        "proposed_price": 19.31,
+        "flags": [
+          "outlier_excluded"
+        ]
+      }
+    },
+    {
+      "id": "P07",
+      "type": "pricing",
+      "category": "edge",
+      "passed": true,
+      "expected": {
+        "action": "hold",
+        "proposed_price": 19.31
+      },
+      "got": {
+        "action": "hold",
+        "proposed_price": 19.31,
+        "flags": []
+      }
+    }
+  ]
+}
